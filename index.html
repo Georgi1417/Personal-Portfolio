@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Георги Сергиев | Python & Web Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar" id="header">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-code">&lt;</span>ГС<span class="logo-code">/&gt;</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">НАЧАЛО</a></li>
+                    <li><a href="#about" class="nav-link">ЗА МЕН</a></li>
+                    <li><a href="#skills" class="nav-link">УМЕНИЯ</a></li>
+                    <li><a href="#projects" class="nav-link">ПРОЕКТИ</a></li>
+                    <li><a href="#contact" class="nav-link">КОНТАКТИ</a></li>
+                </ul>
+            </nav>
+
+            <!-- Hamburger Button for Mobile -->
+            <button class="hamburger" id="hamburger" aria-label="Меню">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <!-- Left Column: Intro Text & Buttons -->
+                <div class="hero-content reveal">
+
+                    <h1 class="hero-title">
+                        Здравейте, аз съм <span class="gradient-text">Георги Сергиев</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Python Developer / Web Developer</h2>
+                    <p class="hero-description">
+                        Здравейте! Аз съм Георги — програмист, който обича да създава модерни и практични приложения и уебсайтове.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Виж проектите</a>
+                        <a href="#contact" class="btn btn-outline">Свържи се с мен</a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Profile Picture Card -->
+                <div class="hero-avatar-wrapper reveal">
+                    <div class="avatar-card">
+                        <img src="assets/profile.jpg" alt="Георги Сергиев" class="avatar-img">
+                        <div class="avatar-badge">
+                            <span>💻 Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================
+             2. ABOUT SECTION (ЗА МЕН)
+             ================================================================ -->
+        <section class="about-section section" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Информация</span>
+                    <h2 class="section-title">ЗА МЕН</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Left Column: Bio & Interests -->
+                    <div class="about-text-card reveal">
+                        <h3 class="about-heading">Моят професионален път</h3>
+                        <p class="about-bio">
+                            Аз съм амбициозен млад програмист с изразена страст към технологичния свят и разработката на софтуер. Вярвам, че доброто програмиране съчетава логика, чист код и елегантен потребителски интерфейс.
+                        </p>
+                        <p class="about-bio">
+                            Основните ми интереси и фокус включват:
+                        </p>
+                        <ul class="about-interests-list">
+                            <li><span class="check-icon">✓</span> <span>Програмиране и софтуерна архитектура</span></li>
+                            <li><span class="check-icon">✓</span> <span>Уеб разработка (Front-end & Back-end)</span></li>
+                            <li><span class="check-icon">✓</span> <span>Python разработване на скриптове и логика</span></li>
+                            <li><span class="check-icon">✓</span> <span>Java и обектно-ориентирано програмиране</span></li>
+                            <li><span class="check-icon">✓</span> <span>Бази данни и моделиране на данни</span></li>
+                            <li><span class="check-icon">✓</span> <span>Създаване на практични приложения</span></li>
+                            <li><span class="check-icon">✓</span> <span>Постоянно учене и развитие</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Right Column: Quick Personal Info -->
+                    <div class="about-info-card reveal">
+                        <h3 class="about-heading">Лична информация</h3>
+                        <div class="info-details-list">
+                            <div class="info-item">
+                                <span class="info-label">Име:</span>
+                                <span class="info-value">Георги Сергиев</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Професия:</span>
+                                <span class="info-value">Python / Web Developer</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Град:</span>
+                                <span class="info-value">София, България</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Имейл:</span>
+                                <span class="info-value">georgi.sergiev@example.com</span>
+                            </div>
+                        </div>
+
+                        <div class="about-stats">
+                            <div class="stat-box">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Проекта</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Желание</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================
+             3. SKILLS SECTION (УМЕНИЯ)
+             ================================================================ -->
+        <section class="skills-section section" id="skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Технологии</span>
+                    <h2 class="section-title">УМЕНИЯ</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <!-- 9 Skill Cards Grid -->
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box html-icon">HTML</div>
+                            <h3 class="skill-name">HTML</h3>
+                        </div>
+                        <p class="skill-description">Семантична структура на уеб страници, оптимизирана за достъпност.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box css-icon">CSS</div>
+                            <h3 class="skill-name">CSS</h3>
+                        </div>
+                        <p class="skill-description">Модерен дизайн, Flexbox, CSS Grid, променливи и анимации.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box js-icon">JS</div>
+                            <h3 class="skill-name">JavaScript</h3>
+                        </div>
+                        <p class="skill-description">Динамична логика в браузъра, DOM манипулация и събития.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box python-icon">PY</div>
+                            <h3 class="skill-name">Python</h3>
+                        </div>
+                        <p class="skill-description">Разработка на бекенд логика, автоматизация и уеб среди.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box java-icon">JV</div>
+                            <h3 class="skill-name">Java</h3>
+                        </div>
+                        <p class="skill-description">Обектно-ориентирано програмиране и структури от данни.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box sql-icon">SQL</div>
+                            <h3 class="skill-name">SQL / MySQL</h3>
+                        </div>
+                        <p class="skill-description">Проектиране на бази данни и управление на информация.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box git-icon">GIT</div>
+                            <h3 class="skill-name">Git</h3>
+                        </div>
+                        <p class="skill-description">Контрол на версиите и разклонения (branches).</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box github-icon">GH</div>
+                            <h3 class="skill-name">GitHub</h3>
+                        </div>
+                        <p class="skill-description">Хостинг на изходен код и съвместна работа.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon-box rwd-icon">RWD</div>
+                            <h3 class="skill-name">Responsive Design</h3>
+                        </div>
+                        <p class="skill-description">Адаптивен дизайн за телефони, таблети и компютри.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================
+             4. PROJECTS SECTION (ПРОЕКТИ)
+             ================================================================ -->
+        <section class="projects-section section" id="projects">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Портфолио</span>
+                    <h2 class="section-title">ПРОЕКТИ</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <!-- OPTIONAL SLIDER / CAROUSEL CONTROLS (Active in Slider Mode) -->
+                <div class="projects-slider-controls" id="projects-slider-controls">
+                    <button class="slider-btn" id="project-prev" aria-label="Предишен проект">←</button>
+                    <span class="slider-counter" id="project-counter">1 / 4</span>
+                    <button class="slider-btn" id="project-next" aria-label="Следващ проект">→</button>
+                </div>
+
+                <!-- Projects grid populated dynamically from script.js -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Project cards will render here via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================
+             5. CONTACT SECTION (КОНТАКТИ)
+             ================================================================ -->
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Свържи се</span>
+                    <h2 class="section-title">КОНТАКТИ</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left Column: Contact Cards -->
+                    <div class="contact-info-wrapper reveal">
+                        <h3 class="contact-heading">Нека работим заедно!</h3>
+                        <p class="contact-subtext">Можете да се свържете с мен чрез посочените контакти или формата.</p>
+
+                        <div class="contact-cards">
+                            <div class="contact-card">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <span class="contact-card-label">Имейл</span>
+                                    <span class="contact-card-value">georgi.sergiev@example.com</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-details">
+                                    <span class="contact-card-label">Телефон</span>
+                                    <span class="contact-card-value">+359 88 123 4567</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-icon">🌐</div>
+                                <div class="contact-details">
+                                    <span class="contact-card-label">GitHub</span>
+                                    <span class="contact-card-value">github.com/georgi-sergiev</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-icon">💼</div>
+                                <div class="contact-details">
+                                    <span class="contact-card-label">LinkedIn</span>
+                                    <span class="contact-card-value">linkedin.com/in/georgi-sergiev</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Contact Form -->
+                    <div class="contact-form-wrapper reveal">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Име</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Вашето име..." required>
+                                <span class="error-msg" id="name-error">Моля, въведете вашето име.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Имейл</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="vashiat.email@domain.com..." required>
+                                <span class="error-msg" id="email-error">Моля, въведете валиден имейл адрес.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Съобщение</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Напишете вашето съобщение тук..." required></textarea>
+                                <span class="error-msg" id="message-error">Моля, въведете съобщение.</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">Изпрати съобщение</button>
+
+                            <!-- Alert Box for Validation -->
+                            <div class="form-status" id="form-status" role="alert"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-copy">&copy; <span id="current-year">2026</span> Георги Сергиев. Всички права запазени.</p>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank" class="social-link">GH</a>
+                <a href="https://linkedin.com" target="_blank" class="social-link">IN</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Нагоре">↑</button>
+
+    <!-- Project Modal Popup -->
+    <div class="modal-overlay" id="project-modal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
